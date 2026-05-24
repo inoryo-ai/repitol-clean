@@ -1,0 +1,9 @@
+{
+  "regions": ["hnd1"],
+  "crons": [
+    {
+      "path": "/api/coupons/monthly",
+      "schedule": "0 9 * * *"
+    }
+  ]
+}
