@@ -137,6 +137,10 @@ Apply the SQL files in `supabase/migrations/` to a Supabase project in numeric o
 - **Production**: live, paying customer
 - **This repo**: sanitized public mirror for review / portfolio purposes — not the deployed branch
 
+Note: This public mirror was exported after stripping tenant data and secrets,
+so the commit history is squashed. The product's actual evolution is preserved
+in the numbered files under `supabase/migrations/` and in `docs/`.
+
 ---
 
 ## License
